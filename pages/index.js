@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Banner from "../components/Banner"
+import LargeCard from "../components/Card/LargeCard"
 import MediumCard from "../components/Card/MediumCard"
 import SmallCard from "../components/Card/SmallCard"
 import Header from "../components/Header"
@@ -40,8 +41,14 @@ export default function Home(props) {
                             )
                         }
                     </div>
-
                 </section>
+
+                <LargeCard
+                    img="/img/large-card.jpg"
+                    title="The Greatest Outdoors"
+                    description="Wishlists curated by Airbnb"
+                    btnText="Get Inspired"
+                />
             </main>
         </div>
     )
