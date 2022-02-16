@@ -1,8 +1,10 @@
 import Head from 'next/head'
+
 import Banner from "../components/Banner"
 import LargeCard from "../components/Card/LargeCard"
 import MediumCard from "../components/Card/MediumCard"
 import SmallCard from "../components/Card/SmallCard"
+import Footer from "../components/Footer"
 import Header from "../components/Header"
 
 export default function Home(props) {
@@ -50,6 +52,8 @@ export default function Home(props) {
                     btnText="Get Inspired"
                 />
             </main>
+
+            <Footer/>
         </div>
     )
 }
